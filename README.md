@@ -1,6 +1,10 @@
 govaluate
 ====
 
+This is a bit of a hack into govaluate to allow the basic operators +-/* to operate on one dimensional arrays.  I provide single dimensional arrays ([]*float64) through parameters and needed it to evaluate the arrays properly.  
+
+
+
 [![Build Status](https://travis-ci.org/Knetic/govaluate.svg?branch=master)](https://travis-ci.org/Knetic/govaluate)
 [![Godoc](https://img.shields.io/badge/godoc-reference-5272B4.svg)](https://godoc.org/github.com/Knetic/govaluate)
 [![Go Report Card](https://goreportcard.com/badge/github.com/Knetic/govaluate)](https://goreportcard.com/report/github.com/Knetic/govaluate) 
